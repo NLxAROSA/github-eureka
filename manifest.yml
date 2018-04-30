@@ -1,6 +1,7 @@
 ---
 applications:
 - name: github-eureka
+  memory: 512M
   env:
     SPRING_PROFILES_ACTIVE: cloud
     DEBUG: "true"
